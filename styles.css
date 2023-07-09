@@ -112,7 +112,9 @@ body {
   letter-spacing: 2px;
 }
 
-#contacts {
+#contacts,
+#skills,
+#education {
   background: white;
 }
 
@@ -147,6 +149,17 @@ body {
   color: gray;
 }
 
-#about-me {
+#about-me,
+#code,
+#english {
   background: #ede9e0;
+}
+
+.pre {
+  margin: 0;
+  padding: 0;
+  background: white;
+  width: 40%;
+  border-radius: 10px;
+  padding: 10px;
 }
