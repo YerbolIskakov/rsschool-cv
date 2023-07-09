@@ -2,8 +2,133 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" href="./assets/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>My CV</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="main-header">
+      <div>
+        <a href="index.html" class="main-header__brand">Home</a>
+      </div>
+      <nav class="main-nav">
+        <ul class="main-nav__items">
+          <li class="main-nav__item">
+            <a href="#contacts">Contacts</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#about-me">About Me</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#skills">Skills</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#code">Code</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#education">Education</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#english">English</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="section" id="profile">
+        <div>
+          <img src="./assets/avatar.png" alt="" class="profile-avatar" />
+        </div>
+        <div class="profile-info">
+          <h1 class="profile-title">Yerbol Iskakov</h1>
+          <h3 class="profile-subtitle">Junior Front-End Developer</h3>
+        </div>
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="section-list">
+          <li class="section-item">Uralsk, Kazakstan</li>
+          <li class="section-item">
+            Email:
+            <a href="mailto:iskakov.yer@gmail.com" title="email"
+              >iskakov.yer@gmail.com</a
+            >
+          </li>
+          <li class="section-item">
+            Github:
+            <a href="https://github.com/YerbolIskakov" title="github"
+              >YerbolIskakov</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="about-me">
+        <h2 class="section-title">About me</h2>
+        <p>
+          I have good interpersonal skills, am an excellent team worker and very
+          willing to learn and develop new skills. I am reliable and dependable
+          and often seek new responsibilities within a wide range of employment
+          areas.
+        </p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">skills</h2>
+        <ul class="section-list">
+          <li class="section-item">HTML</li>
+          <li class="section-item">CSS</li>
+          <li class="section-item">JavaScript</li>
+          <li class="section-item">Git</li>
+          <li class="section-item">Github</li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">code</h2>
+        <pre class="pre">
+          <code>function sum(a, b) {
+            return a + b;
+          }
+          
+          let result = sum(1, 2);
+          alert( result );</code>
+        </pre>
+      </section>
+      <section class="section" id="Education">
+        <h2 class="section-title">education</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            West Kazakhstan State University, Computer science
+          </li>
+          <li class="section-item">
+            Email:
+            <a
+              href="https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA"
+              title="youtube channel"
+              >CS50</a
+            >
+          </li>
+          <li class="section-item">
+            Github:
+            <a href="https://www.udemy.com" title="udemy">UDEMY</a>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="english">
+        <h2 class="section-title">english</h2>
+        <p>B1</p>
+      </section>
+    </main>
+    <footer class="footer">
+      <a href="https://rs.school/js/" class="rss"><div class="rs"></div></a>
+      <p class="footer-year">© 2023</p>
+      <a href="https://github.com/YerbolIskakov" class="footer-git">YerbolIskakov</a>
+      
+    </footer>
+    
 </html>

@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: 241e18;
+}
+
+.main-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #2ddf5c;
+  padding: 8px 16px;
+  z-index: 1;
+}
+
+.main-header > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-header__brand {
+  color: #0e4f1f;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 74px);
+  vertical-align: middle;
+}
+
+.main-nav__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav__item {
+  display: inline-block;
+  margin: 0 px;
+}
+
+.main-nav__item a {
+  text-decoration: none;
+  color: #0e4f1f;
+  font-weight: bold;
+  padding: 3px 0;
+  margin: 0 16px;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+  color: white;
+  border-bottom: 5px solid white;
+}
+
+.section {
+  width: 100%;
+  margin: 0 auto;
+  padding: 26px;
+}
+
+#profile {
+  margin-top: 46px;
+  display: flex;
+  justify-content: space-around;
+  background: #ede9e0;
+}
+
+.profile-avatar {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.profile-title {
+  margin-bottom: 20px;
+  color: #241e18;
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: 10px;
+  line-height: 50px;
+  word-spacing: 3px;
+}
+
+.profile-subtitle {
+  margin-top: 20px;
+  color: #241e18;
+  line-height: 50px;
+  font-weight: 300;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+#contacts,
+#skills,
+#education {
+  background: white;
+}
+
+.section-title {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #241e18;
+}
+
+.section-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.section-item {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  padding-left: 30px;
+}
+
+.section-item > a {
+  text-decoration: none;
+  color: #241e18;
+}
+
+.section-item a:hover {
+  color: gray;
+}
+
+#about-me,
+#code,
+#english {
+  background: #ede9e0;
+}
+
+.pre {
+  margin: 0;
+  padding: 0;
+  background: white;
+  width: 40%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.footer {
+  width: 100%;
+  background: black;
+  padding: 16px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.rs {
+  background: url("./assets/rs_school_js.svg");
+  width: 100px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.footer-year {
+  color: white;
+}
+
+.footer-git {
+  text-decoration: none;
+  color: white;
+}
